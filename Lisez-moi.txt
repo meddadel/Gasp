@@ -1,0 +1,27 @@
+-Compilation
+
+	Pour compiler le projet, il suffit de taper la commande 'make'. Pour supprimer
+les fichiers crées lors de la compilation, la commande 'make clean' est nécessaire.
+
+-Exécution du programme
+	-Passage d'instructions par fichier
+
+	L'exécution du programme passe par la commande './run.exe fich' où fich est le
+chemin du fichier sur lequel on souhaite exécuter le programme. Si aucune erreur
+n'a été repérée, on affiche alors le résultat. Pour fermer le programme, on doit
+cliquer sur la fenêtre. Si une erreur a été détectée, on affiche sur le terminal
+avec sa position et sa nature et on arrête le programme.
+
+	-Passage d'instructions par le terminal (mode interprété)
+
+	Pour lancer le mode interprété, il faut lancer './run.exe' sans argument. Vous vous
+retrouverez alors devant un fenêtre vide et un terminal attendant une commande.
+Cette commande peut aussi bien être une déclaration ou une instruction. Une fois tapée,
+elle sera traitée si aucune erreur n'est détectée. Puis, le terminal en demandera une autre,
+la traitera et ainsi de suite. Pour arrêter de passer des commandes, il suffit de taper
+"Arret" (sans les ""). Un clic sur la fenêtre mettra fin au programme.
+
+-Réalisation du projet
+
+	Notre projet comporte toutes les fonctionnalités des étapes 1 à 3, la modification
+de l'épaisseur (avec la commande ChangeEpaisseur) et de la couleur du traits (avec la commande ChangeCouleur) et le mode interprété.

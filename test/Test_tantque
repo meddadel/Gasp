@@ -1,0 +1,11 @@
+Var i;
+Debut
+i = 4;
+BasPinceau;
+Tant que i
+Faire
+Debut
+Avance 30;
+i = i - 1;
+Fin;
+Fin

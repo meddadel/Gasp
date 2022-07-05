@@ -1,0 +1,7 @@
+Var angle;
+Debut
+Avance 100;
+Tourne -90;
+BasPinceau;
+Si -15 / (5-4) + 8 + 7 Alors Avance 0 Sinon Avance 100;
+Fin
